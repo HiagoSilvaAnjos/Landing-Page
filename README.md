@@ -1,2 +1,2 @@
 # Landing-Page
- Projeto fei com css e html
+ Projeto feito com css e html
