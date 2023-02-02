@@ -185,7 +185,6 @@ a {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .grid-one-content {
@@ -243,3 +242,35 @@ a {
 .gallery-imgs img:hover {
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
+
+/* sessão pricing */
+.responsive-table {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+table {
+    min-width: 36rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table th, table td {
+    white-space: nowrap;
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid var(--light-gray-color);
+}
+
+tfoot td, table th {
+    background-color: var(--light-gray-color);
+}
+
