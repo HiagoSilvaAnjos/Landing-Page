@@ -158,7 +158,6 @@ a {
 /* Sessão Intro */
 .intro-content {
     position: relative;
-    top: -3rem;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -272,4 +271,82 @@ table th, table td {
 
 tfoot td, table th {
     background-color: var(--light-gray-color);
+}
+
+/* sessão contact */
+.contact-form {
+    grid-column: span 2;
+}
+
+.contact-form .form-grid {
+    border: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gap);
+}
+
+.form-group {
+    flex: 1 1 32rem;
+}
+
+.form-grid legend {
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    font-size: 2rem;
+    border: none;
+    background-color: #fffffff0;
+    padding: 1.5rem 2rem;
+    width: 100%;
+}
+
+.contact-form .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+.contact-form .form-group button {
+    border: 0.5rem solid var(--white-color);
+    background: none;
+    color: var(--white-color);
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.contact-form .form-group button:hover {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.form-group::placeholder {
+    color: var(--light-gray-color);
+}
+
+/* footer */
+.footer{
+    text-align: center;
+}
+
+.footer a {
+    color: var(--primary-color);
+}
+
+.footer p {
+    margin: 0;
+    padding: 3rem;
+}
+
+.heart {
+    color: var(--secondary-color);
 }
