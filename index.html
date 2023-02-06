@@ -11,11 +11,14 @@
 
 <body>
 
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1><a href="#home">LOGO</a></h1>
+            <h1 id="logo"><a href="#home">LOGO</a></h1>
             <nav>
-                <ul>
+                <ul id="items-menu">
                     <li><a href="#top3">intro</a></li>
                     <li><a href="#grid-one">grid-one</a></li>
                     <li><a href="#gallery">gallery</a></li>
@@ -234,7 +237,8 @@
                     of Flash support from Firefox.</p>
             </div>
             <div class="intro-img">
-                <img src="./assets/imgs/javascript.svg" alt="Uma imagem svg de pessoas segurando linguagens de desenvolvimento web">
+                <img src="./assets/imgs/javascript.svg"
+                    alt="Uma imagem svg de pessoas segurando linguagens de desenvolvimento web">
             </div>
             <div class="contact-form">
                 <fieldset class="form-grid">
@@ -270,9 +274,11 @@
     </section>
 
     <footer id="footer" class="footer white-bg">
-        <p><a rel="nofollow" target="_blank" href="https://github.com/HiagoSilvaAnjos">Feito com <span class="heart">&hearts;</span> por Hiago Silva</a></p>
+        <p><a rel="nofollow" target="_blank" href="https://github.com/HiagoSilvaAnjos">Feito com <span
+                    class="heart">&hearts;</span> por Hiago Silva</a></p>
     </footer>
 
+    <a class="back-to-top" href="#">➤</a>
 
     <script src="./assets/javascript/scripts.js"></script>
 
